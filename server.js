@@ -13,24 +13,24 @@ const server = http.createServer(function(request, response) {
 		})
 	} else if (page == '/api'){
 		if('string' in params){ // api?string=
-      response.writeHead(200, {'Content-Type': 'application/json'})
-      
-      let word = params['string']
-      let reverse = [...word].reverse().join('')
+			response.writeHead(200, {'Content-Type': 'application/json'})
+			
+			let word = params['string']
+			let reverse = [...word].reverse().join('')
 
-      let result = word === reverse ? true : false
-      console.log(result)
-      const objToJSON = {
-        isPalindrome: result,
-        reversed: reverse
-      }
-      response.end(JSON.stringify(objToJSON))
+			let result = word === reverse ? true : false
+			console.log(result)
+			const objToJSON = {
+				isPalindrome: result,
+				reversed: reverse
+			}
+      		response.end(JSON.stringify(objToJSON))
 		}
 	} else if (page == '/js/main.js'){
 		fs.readFile('js/main.js', function(err, data) {
-			response.writeHead(200, {'Content-Type': 'text/javascript'});
-			response.write(data);
-			response.end();
+			response.writeHead(200, {'Content-Type': 'text/javascript'})
+			response.write(data)
+			response.end()
 		})
 	} else {
 		function fourOFour(err, data){
