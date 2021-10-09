@@ -12,11 +12,17 @@ document.querySelector('button').addEventListener('click', checkIfPalindrome)
 function checkIfPalindrome(){
     let word = document.querySelector('input').value.toLowerCase()
 
-    let reverse = [...word].reverse().join('')
-    
-    if (reverse === word){
-        console.log('yepp')
-    }else {
-        console.log('noppe')
-    }
+    fetch(`/api?string=${word}`) // fetch the local API
+        .then(response => response.json()) // if request works
+        .then(data => {
+            console.log(data)
+            let result = data.isPalindrome
+            console.log(result)
+            if(result){
+                document.querySelector('span').innerText = `Yes. Reversed: ${data.reversed} `
+            } else {
+                document.querySelector('span').innerText = `No. Reversed: ${data.reversed} `
+            }
+        })
+        .catch(err => console.log(err))
 }
