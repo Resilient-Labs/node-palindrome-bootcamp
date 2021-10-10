@@ -1,0 +1,9 @@
+h1{
+  color: black;
+  font-size: 3em;
+}
+body{
+  background-image: url(img/taco.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
