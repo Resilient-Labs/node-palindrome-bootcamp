@@ -18,5 +18,5 @@ Example:
 ```
 I completed the challenge: 5
 I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+i need to come back and style this, just plain right now to show that the logic is working
 ```
