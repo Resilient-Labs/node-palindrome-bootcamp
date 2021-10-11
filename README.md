@@ -4,7 +4,7 @@
 
 ## Link to Project: 
 
-![Palindrome Checker Demo](url)
+![Palindrome Checker Demo](https://github.com/cat-goncalves/node-palindrome-bootcamp/blob/answer/css/palindrome-checker-demo.gif?raw=true)
 
 ## How It's Made:
 Tech used: HTML, CSS, JavaScript, Node.js
