@@ -1,0 +1,16 @@
+{
+  "name": "palindrome",
+  "version": "1.0.0",
+  "description": "Palindrome Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ernest Pough",
+  "license": "ISC",
+  "devDependencies": {
+    "figlet": "^1.5.2",
+    "nodemon": "^2.0.13"
+  }
+}
