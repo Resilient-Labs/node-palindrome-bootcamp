@@ -1,0 +1,23 @@
+body{
+    background: url(..//background.jpeg);
+}
+h1{
+    text-align: center;
+    margin-top: 3%;
+    color: rgba(180, 39, 43)
+}
+
+input{
+    margin-left:42%;
+    margin-top:5%;
+}
+
+#button{
+    background:white;
+    
+}
+h2{
+    text-align: center;
+    color:rgba(180,39,43);
+}
+
