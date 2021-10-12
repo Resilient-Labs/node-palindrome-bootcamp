@@ -1,0 +1,169 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack - stops containers from collapsing*/
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background-color: aqua;
+     text-align:center
+
+     
+}
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+h1, h2{
+     color:black;
+
+}
+
+input{
+     display:inline-block;
+  
+}
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* taken from https://lauryndbrown.github.io/2017/06/08/creating-clouds-in-css.html */
+.cloudOne{ 
+     margin-top:70px;
+     width:350px;
+     height:120px;
+     background:#ECEFF1;
+     box-shadow: 10px 10px rgba(0,0,0,0.2);
+     border-radius:100px;
+}
+
+.cloudOne::after, .cloudOne::before{
+      content:"";
+      position:relative;
+      display:inline-block;
+      background:inherit;
+      border-radius:inherit;
+}
+
+.cloudOne::after{
+      width:100px;
+      height:100px;
+      top:-220px;
+      left:50px;
+}
+  
+.cloudOne::before{
+      width:200px;
+      height:180px;
+      top: -70px;
+      left:130px;
+}
+
+.cloudTwo{ 
+     margin-left: 400px;
+     margin-top:150px;
+     width:350px;
+     height:120px;
+     background:#ECEFF1;
+     box-shadow: 10px 10px rgba(0,0,0,0.2);
+     border-radius:100px;
+}
+
+.cloudTwo::after, .cloudTwo::before{
+      content:"";
+      position:relative;
+      display:inline-block;
+      background:inherit;
+      border-radius:inherit;
+}
+
+.cloudTwo::after{
+      width:100px;
+      height:100px;
+      top:-220px;
+      left:50px;
+}
+  
+.cloudTwo::before{
+      width:200px;
+      height:180px;
+      top: -70px;
+      left:130px;
+}
+
+.cloudThree{ 
+      margin-left: 900px;
+   
+      width:350px;
+      height:120px;
+      background:#ECEFF1;
+      box-shadow: 10px 10px rgba(0,0,0,0.2);
+      border-radius:100px;
+ }
+ 
+ .cloudThree::after, .cloudThree::before{
+       content:"";
+       position:relative;
+       display:inline-block;
+       background:inherit;
+       border-radius:inherit;
+ }
+ 
+ .cloudThree::after{
+       width:100px;
+       height:100px;
+       top:-220px;
+       left:50px;
+ }
+   
+ .cloudThree::before{
+       width:200px;
+       height:180px;
+       top: -70px;
+       left:130px;
+ }
+ 
