@@ -1,0 +1,16 @@
+h2{
+     font-size: 2rem;
+}
+body {
+     background-attachment: fixed;
+     background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/45480a9f-bb2b-4f37-976e-082d71c4bba4/ddzkshp-601262cc-d3a1-40ec-a29e-65d3860791ba.jpg/v1/fill/w_1280,h_800,q_75,strp/taco_cat_wallpaper_by_lib_fluffymoss_ddzkshp-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ1NDgwYTlmLWJiMmItNGYzNy05NzZlLTA4MmQ3MWM0YmJhNFwvZGR6a3NocC02MDEyNjJjYy1kM2ExLTQwZWMtYTI5ZS02NWQzODYwNzkxYmEuanBnIiwiaGVpZ2h0IjoiPD04MDAiLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC80NTQ4MGE5Zi1iYjJiLTRmMzctOTc2ZS0wODJkNzFjNGJiYTRcL2xpYi1mbHVmZnltb3NzLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.OT2hK4yL0okk7fOUvVYKV4ZK2POX2hJXXlMbEj_eGKE');
+     background-size: cover;
+     background-repeat: repeat;
+     display: flex;
+     font-family: 'Arial', sans-serif;
+     color: black;
+     font-size: 1.3em;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+ } 
