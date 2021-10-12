@@ -1,0 +1,83 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #072D58;
+     font-size: 3vh;
+     line-height: 1.4;
+     font-family: 'Montserrat',Verdana, 'Geneva', Tahoma, sans-serif;
+     background-color: #EAFAF1;
+     text-align: center;
+}
+h1 {
+     font-family: 'DM Serif Display', Verdana, 'Geneva', Tahoma, sans-serif;
+     margin: 5%;
+     color: #072D58;
+     text-shadow: #104363 1px 0 15px;
+}
+h2 {
+     margin: 5%;
+}
+p {
+     margin: 0% 15% 4% 15%;
+}
+input {
+     font-size: inherit;
+     background-color: transparent;
+     padding: 0.5% 8% 0.5% 1%;
+     border: none;
+     border-bottom: 4px solid #104363;
+}
+input::placeholder {
+     color: #104363;
+}
+input:hover::placeholder {
+     color: #ABB2B9;
+}
+button {
+     font-size: inherit;
+     background-color: transparent;
+     padding: 0.5%;
+     border: 2px solid #104363;
+     border-radius: 20px;
+     color: #104363;
+}
+button:hover {
+     background-color: #072D58;
+     color: #ABB2B9;
+     border: 2px solid #ABB2B9;
+}
