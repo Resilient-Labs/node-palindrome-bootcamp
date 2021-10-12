@@ -17,6 +17,6 @@ This project was implemented using node.js without express. This means that the 
 
 ## Lessons Learned:
 
-Some great takeaways from this project are implementing node.js without express to see how core modules are used and how to hard code routes to return a response in JSON that is parsed by fetch syntax and provided the statement correct guess or incorrect guess.
+Some great takeaways from this project are implementing node.js without express to see how core modules are used and how to hard code routes to return a response in JSON that is parsed by fetch syntax and provided the statement is a palindrome or is not a palindrome.
 
 ## Examples:
