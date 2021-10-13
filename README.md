@@ -1,22 +1,18 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+### Server Side Palindrome Checker
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+### This simple web application validates if the word or string entered is a Palindrome.
 
-### How to submit your code for review:
+### Link to project: https://naughty-goldstine-b5f6a7.netlify.app/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img width="1437" alt="Screen Shot 2021-10-09 at 8 13 47 PM" src="https://user-images.githubusercontent.com/88958905/137145205-4cbc4089-e40b-4254-bf4d-70f0a86f62c8.png">
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### How It's Made:
+
+Tech used: HTML, CSS, JavaScript
+
+After creating the HTML for the project, I created two differnt types of JavaSccript files. In one file , a function was created to allow for a click event to happen. In that function it also allows for the DOM to display if the word or string entered in a palindrome.In the other file created it contains the logic behind verifying if the word or string entered is a palindrome.
+
+
+### What I learned:
+
+This project has taught me how to display my projects on the server-side as opposed to the client-side.
