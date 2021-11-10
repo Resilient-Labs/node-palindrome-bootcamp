@@ -1,0 +1,35 @@
+{
+  "name": "palindrome-bootcamp",
+  "version": "1.0.0",
+  "description": "Checks if a string is a palindrome or not.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nktruong/node-palindrome-bootcamp.git"
+  },
+  "keywords": [
+    "node",
+    "Resilient",
+    "Coders",
+    "palindrome",
+    "leonnoel",
+    "civic",
+    "bob",
+    "racecar",
+    "javascript"
+  ],
+  "author": "Nathan Truong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nktruong/node-palindrome-bootcamp/issues"
+  },
+  "homepage": "https://github.com/nktruong/node-palindrome-bootcamp#readme",
+  "dependencies": {
+    "figlet": "^1.5.2",
+    "tailwindcss": "^2.2.16"
+  }
+}
