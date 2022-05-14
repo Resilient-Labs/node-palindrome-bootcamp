@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+/* body {
+    background-image: url("img/magic-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+main {
+    width: 50%;
+    margin: 0 25%;
+    font-size: 2rem;
+    text-align: center;
+}
