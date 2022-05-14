@@ -14,6 +14,7 @@ button.addEventListener('click', checkPal)
 //     }
 // }
 
+
 function checkPal() {
     let submit = input.value
     fetch(`/api?palindrome=${submit}`)

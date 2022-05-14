@@ -2,9 +2,27 @@
     box-sizing: border-box;
 }
 
+body {
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+background-repeat: no-repeat;
+height: 750px;
+}
+
 main {
     width: 50%;
     margin: 0 25%;
     font-size: 2rem;
     text-align: center;
+}
+
+.result {
+  text-align: center;
+  background: lightgray;
+  color: white;
+}
+
+button, input {
+  border-radius: 4px;
+  background: lightgray;
 }
