@@ -1,0 +1,39 @@
+body{
+background-image: url(https://thumbs.dreamstime.com/b/scrabble-tiles-created-border-wooden-background-old-153229157.jpg);
+background-size: cover;
+color: white;
+font-size: 25px;
+margin-left: 100px;
+margin-top: 100px;
+
+}
+span{
+  font-style: italic;
+}
+
+
+h1{
+ 
+}
+
+span{
+  font-style: italic;
+}
+
+input, button{
+transform: scale(2);
+}
+
+input{
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+h2{
+  border: rgb(255, 253, 253) 2px solid;
+  font-size: 25px;
+  width: 300px;
+  height: 60px;
+  margin-left: 60px;
+}
+  
