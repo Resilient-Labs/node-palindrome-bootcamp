@@ -2,6 +2,6 @@
 
 ### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
 
-![palindrome](https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3BhbGluZHJvbWUuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9LCJ0b0Zvcm1hdCI6ImF2aWYifX0=)
+![palindrome](https://www.dictionary.com/e/wp-content/uploads/2022/01/20220131_palindrome_1000x700.png)
 
 Created a simple web application that uses the fs and http modules to validate if a string is a palindrome via server side. Our team found this project to be pretty fun! 
