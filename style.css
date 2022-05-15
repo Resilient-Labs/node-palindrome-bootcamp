@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+body { 
+    display: flex;
+    flex-direction: column;
+    margin: 15% 20% 0 20%;
+    text-align: center;
+    background-image: url("imgs/evil.webp")
+} 
+
+button {
+    align-self: center;
+} 
+
+h1, p, h2, input, button{ 
+    font-family: 'Neucha', cursive;
+    text-shadow: 2px 2px #9093ad
+}
+
