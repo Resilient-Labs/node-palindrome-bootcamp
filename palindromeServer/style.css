@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #373B44,#4286f4 );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 610px;
+}
+main {
+    width: 50%;
+    margin: 10% 25%;
+    text-align: center;
+    background: rgba(223, 221, 221, 0.815);
+    height: 400px;
+}
+
+h2{
+    font-size: 1.7rem;
+    padding-top: 10%;
+}
+
+h1{
+    padding-top: 10%;
+    font-size: 1.8rem;
+}
