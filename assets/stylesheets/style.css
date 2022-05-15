@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+html {
+    font-size: 62.5%;
+    background: rgba(18, 121, 23, .4);;
+    font-family: 'Macondo', Arial, Helvetica, sans-serif;
+}
+
+/* Clearfix Hack */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+/* Body Styling */
+
+.header, .submitHere {
+    background: rgba(238,238,228, .4);
+    margin: 0 20%;
+}
+
+.title {
+    font-size: 5rem;
+    padding: 3%;
+    margin: 0;
+}
+
+.intro {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.palindrome {
+    margin: 4%;
+    height: 35px;
+    font-size: 1.75rem;
+    width: 35%;
+}
+
+.submitBtn {
+    height: 35px;
+    font-size: 1.75rem;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    border-radius: 30%;
+}
+
+.result {
+    font-size: 3rem;
+}
+
+.resultIMG {
+    height: 300px;
+}
+
+/* footer styling */
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    float: left;
+    margin: 1%;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+    transition: color .5s
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+/* Media Queries */
+
+@media all and (max-width: 1010) {
+    .header, .submitHere {
+        margin: 0 15%;
+    }
+}
+
+@media all and (max-widht: 802px) {
+    .header, .submitHere {
+        margin: 0 10%;
+    }
+}
+
+@media all and (max-width: 680px) {
+    .header, .submitHere {
+        margin: 0 5%;
+    }
+}
+
+@media all and (max-width: 603px) {
+    .header, .submitHere {
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 528px) {
+    .title {
+        font-size: 4rem;
+    }
+
+    .intro {
+        font-size: 1.75rem;
+    }
+
+    .palindrome {
+        width: 45%;
+        font-size: 1.5rem;
+        margin: 2%;
+    }
+
+    .result {
+        font-size: 2rem;
+    }
+
+    .resultIMG {
+        height: 260px;
+    }
+
+}
+
+@media all and (max-width: 421px) {
+    .palindrome {
+        height: 30px;
+        margin: 1%;
+        width: 65%;
+    }
+    
+    .result {
+        font-size: 2rem;
+    }
+
+    .submitBtn {
+        height: 30px;
+        font-size: 1.25rem;
+        display: block;
+        margin-left: 34%;
+    }
+}
+
+@media all and (max-width: 337px) {
+    .palindrome {
+        width: 75%;
+    }
+
+    .submitBtn {
+        margin-left: 29%;
+        
+    }
+}
