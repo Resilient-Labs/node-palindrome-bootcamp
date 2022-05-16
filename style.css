@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-image: url(./imgs/palindrome.gif);
+    background-size: cover;
+}
+body { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    color: lightseagreen;
+}
+h2{
+    padding-top: 40px;
+    font-size: 80px;
+    color: seashell;
+}
+button {
+    align-self: center;
+} 
