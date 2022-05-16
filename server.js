@@ -39,8 +39,15 @@ const server = http.createServer(function(req, res) {
         res.end(JSON.stringify(objToJson));
       } 
       
-    }//student if
-  }//else if
+    }
+  }
+  else if (page == '/img/scrabble.jpg'){
+    fs.readFile('img/scrabble.jpg', function(err, data) {
+      res.writeHead(200, {'Content-Type': 'image/jpg'});
+      res.write(data);
+      res.end();
+    });
+  }
   else if (page == '/js/main.js'){
     fs.readFile('js/main.js', function(err, data) {
       res.writeHead(200, {'Content-Type': 'text/javascript'});
@@ -60,4 +67,4 @@ const server = http.createServer(function(req, res) {
   }
 });
 
-server.listen(8000);
+server.listen(7000);

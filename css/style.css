@@ -12,7 +12,49 @@
 /*******************************************/
 
 body{
-  color: orange;
+  background-image: url(../img/scrabble.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+main {
+  background-color: #dfcbb9;
+  width: 50%;
+  border-radius: 8px;
+  margin-top: 173px;
+  box-shadow: 10px 10px 8px black;
+}
+button.button1{
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  color: #000000;
+  text-align: center;
+  transition: all 0.2s;
+  background: #dfcbb9;
+}
+button.button1:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+  button.button1{
+  display:block;
+  margin:0.4em auto;
+  }
+}
+input{
+  border: none;
+  height: 26px;
 }
 
 /******************************************
