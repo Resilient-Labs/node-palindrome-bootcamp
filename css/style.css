@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  padding: 0em;
+  margin: 0em;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    background-color: burlywood;
+  }
+  h1, h2, form, button, div, h3 ,img{
+    align-self: center;
+    margin-top: .1em;
+  }
+
+  img{
+    width:27em;
+    height: 18em;
+  }
+
+  h3{
+    color:red;
+    font-size: 1em;
+  }
+
+  h1{
+    padding-top: 20px;
+  }
+
