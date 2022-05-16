@@ -1,0 +1,35 @@
+*{
+  text-align: center;
+}
+h1{
+  font-size: 3rem;
+  margin-top: 4rem;
+  color: white;
+  margin-top: 7rem;
+}
+body{
+  background-image: url(/blue.jpg);
+  background-size:auto;
+}
+div{
+  background-color: black;
+  min-height: 250px;
+}
+p{
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 2rem;
+}
+button{
+  color: white;
+  background-color: rgb(195, 187, 187);
+  transition-duration: 0.4s;
+  box-shadow: 5px 5px rgba(215, 210, 210, 0.233);
+  padding: 0.5rem;
+}
+button:active {
+  transform: translateY(10px);
+}
+input{
+  line-height: 1.6rem;
+}
