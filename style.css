@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body { 
+    display: flex;
+    flex-direction: column;
+    margin: 15% 20% 0 20%;
+    text-align: center;
+    background-image: url(./imgs/homer.gif);
+    background-size: 125%;
+} 
+
+button {
+    align-self: center;
+} 
+h1{
+    font-size: 40px;
+}
+.firstP{
+    font-size: 25px;
+    font-weight: 900;
+}
+.secondP{
+    font-size: 25px;
+    color: white;
+}
+.input1{
+    width: 55%;
+}
