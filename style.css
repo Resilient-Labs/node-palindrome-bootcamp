@@ -1,0 +1,53 @@
+html {
+  background: linear-gradient(to bottom, #250125 0%, #ff99cc 100%);
+  /* text-align: center; */
+  background-image: url(bob.png);
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+  height: 10rem;
+}
+
+body {
+  text-align: center;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 15% 0% 0 0%;
+  background-color: #607d8ba3;
+  background: radial-gradient(circle, rgba(9, 160, 254, 0.2567620798319328) 0%, rgba(55, 135, 179, 0.528470763305322) 36%, rgb(11 112 162 / 76%) 100%);
+}
+
+h1,
+h2 {
+  /* display: inline-block; */
+  align-self: center;
+}
+
+button,
+input {
+  border-radius: 13px;
+}
+
+button {
+  background-color: #c88b30;
+  border-style: outset;
+  border-color: #ffe5bf;
+  height: 1.8rem;
+  width: 5rem;
+  transition-duration: 0.4s
+}
+
+button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #607D8B; 
+  border-color: #c88b30;
+  color: white;
+}
+
+input {
+  height: 1.5rem;
+  border-color: #c88b30;
+  background-color: #f5fbff;
+  width: 12rem;
+  text-align: center;
+}
