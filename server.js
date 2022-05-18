@@ -13,8 +13,8 @@ const server = http.createServer(function (req, res) {
       res.write(data);
       res.end();
     });
-  } else if (page == '/paliBob.png') {
-    fs.readFile('paliBob.png', function (err, data) {
+  } else if (page == '/bob.png') {
+    fs.readFile('bob.png', function (err, data) {
       res.writeHead(200), { 'Content-Type': 'image/png' }
       res.write(data)
       res.end()
@@ -35,7 +35,7 @@ const server = http.createServer(function (req, res) {
     if ('pali' in params) {
       let userInput = params["pali"];
       let word = `${userInput}`;
-      let algor = word.toLowerCase() === word.toLowerCase().split('').reverse().join('') ? 'palindrome' : 'Not a palindrome';
+      let algor = word.toLowerCase() === word.toLowerCase().split('').reverse().join('') ? 'Palindrome' : 'Not a Palindrome';
       res.writeHead(200, { "Content-Type": "application/json" });
       const objToJson = {
         result: algor,
