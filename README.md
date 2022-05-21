@@ -1,22 +1,17 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+# ↔️ Project: Server Side Palindrome Checker
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+This website lets you check if a word is a palindrome.
 
-### How to submit your code for review:
+**Link to project:** https://kerlinaugustin-palindrome.netlify.app/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![spiderman](https://user-images.githubusercontent.com/102834611/169630487-0cbb4965-f0dc-44bc-8e30-2ae1c54f5e8d.jpeg)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript
+
+I created a variable that says any word you put into the input should be ".split('').reverse().join('')". Then that value should equal to the original word.
+
+## Lessons Learned:
+
+I learned .split('') turns every letter in the string its on into an array, whereas .split(' ') turns every word in the string its on into an array.
