@@ -9,6 +9,9 @@ Link to project: https://cutepalindrome.netlify.app/
 ## How It's Made:
 Tech used: HTML, CSS, JavaScript
 
-Utilizing javascript to see if a word inputted is the same reversed.
+Utilizing javascript to see if a word inputted is the same reversed. If conditionals and methods like .split() and .reverse() were really useful to seperate the inputs into an array and reverse them. Then using .join() to put them back together. If the word flipped was the same as the word normally then say it is a plindrome. If not then say it isn't a palindrome.
+
+## Lessons Learned: 
+A good wallpaper can make things look very good haha.
 
 
