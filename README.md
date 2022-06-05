@@ -6,7 +6,8 @@ This is a website that uses the fs and http modules to validate if a string is a
 </p>
 
 <section align="center">
-  <img width="1336" alt="Screen Shot 2022-06-02 at 11 52 43 PM" src="https://user-images.githubusercontent.com/102041426/172070292-093a6811-a259-4eda-a28f-4d9d30c3fc60.png">
+ <img width="1321" alt="Screen Shot 2022-06-05 at 5 03 41 PM" src="https://user-images.githubusercontent.com/102041426/172070497-93d62061-b002-4865-a5a6-2ab9474b4f93.png">
+
 
   </section>
 
@@ -14,4 +15,4 @@ This is a website that uses the fs and http modules to validate if a string is a
 </section>
 
 <h2 align="center"> Languages used</h2>
-<p align="center"> HTML, CSS, Javascript </p>
+<p align="center"> HTML, CSS, Javascript, node.js </p>
