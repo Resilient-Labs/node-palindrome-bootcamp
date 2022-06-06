@@ -2,17 +2,12 @@
 
 ### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
 
-### How to submit your code for review:
+### Language : JavaScript , CSS , HTML 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+
+![Screen Shot 2022-06-05 at 9 31 03 PM](https://user-images.githubusercontent.com/101997718/172080129-39362fde-317f-4c29-b2d3-9c433647f9e9.png)
+
+Learned: I learned what a palindrome is. I also leaned how to split a word apart by letters.  
 
 Example:
 ```
