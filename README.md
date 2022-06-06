@@ -1,8 +1,14 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+# Server Side Palindrome Checker
 
 ### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
 
-### How to submit your code for review:
+## Group project utilizing client side and server side Javascript to determine whether or not a word is considered a palindrome (when a word is spelled the same backwards and forwards). 
+
+*Project completed using HTML, CSS, Javascript, and Node.js.*
+
+![Palindrome Checker](palindromeimg.png)
+
+<!-- ### How to submit your code for review:
 
 - Fork and clone this repo
 - Create a new branch called answer
@@ -20,3 +26,4 @@ I completed the challenge: 5
 I feel good about my code: 4
 I'm not sure if my constructors are setup cleanly...
 ```
+ -->
