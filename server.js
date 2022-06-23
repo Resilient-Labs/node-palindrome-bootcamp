@@ -1,5 +1,3 @@
-//upload to server
-
 const http = require("http"); //imports
 const fs = require("fs"); //imports
 const url = require("url");
@@ -60,7 +58,7 @@ const server = http.createServer(function (req, res) {
 
   //       }
 });
-server.listen(8400);
+server.listen(8888);
 
 function checkPalindrome(pPalindrome) {
   // return
