@@ -95,4 +95,3 @@ function triggerServer() {
 //      }else{
 //        document.querySelector('.coin').classList.add('tails')
 //      }
-
