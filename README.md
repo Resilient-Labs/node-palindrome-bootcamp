@@ -1,22 +1,17 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+# Node Palindrome
+Created a tic tac toe game
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+Link to project: https://cutepalindrome.netlify.app/
 
-### How to submit your code for review:
+![l](https://user-images.githubusercontent.com/101950707/168533156-5163ab4e-28fa-41b9-838b-29f2c95b48d4.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+Tech used: HTML, CSS, JavaScript
+
+Utilizing javascript to see if a word inputted is the same reversed. If conditionals and methods like .split() and .reverse() were really useful to seperate the inputs into an array and reverse them. Then using .join() to put them back together. If the word flipped was the same as the word normally then say it is a plindrome. If not then say it isn't a palindrome.
+
+## Lessons Learned: 
+A good wallpaper can make things look very good haha.
+
+
