@@ -1,22 +1,16 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+# palindrome
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+# Palindrome Project
 
-### How to submit your code for review:
+Users are able to put in a name and find out if it's a palindrome or not!
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![palindrome jpg](https://user-images.githubusercontent.com/102040536/172030878-cf24aa88-49f2-477e-a0eb-ce1a3aa360c3.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+## How It's Made:
+
+Languages/frameworks use: HTML, CSS, JavaScript
+
+## Thoughts:
+
+I like the css of this one, a lot! I think it came out pretty cute. Project felt a little difficult, but it make more sense with some guidance from mentors. 
