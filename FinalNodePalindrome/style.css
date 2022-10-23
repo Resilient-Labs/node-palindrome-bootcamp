@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 600;
+    color: lightsalmon;
+    background: aquamarine;
+    width: 100%;
+    margin-top: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3BhbGluZHJvbWUuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9fX0=);
+    background-size: 100% 61rem;
+    background-repeat: no-repeat;
+}
+
+button {
+    align-self: center;
+    height: 2rem;
+    font-size: 20px;
+    margin-left: 0.2rem;
+    border-radius: 8px;
+}
+
+input#userInputWords {
+    height: 2rem;
+    width: 11rem;
+    font-size: 1.5em;
+    border-radius: 8px;
+    text-align: center;
+}
+
+p {
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    width: 34%;
+    color: lightsalmon;
+    background: azure;
+    border: aquamarine solid 8px;
+    border-radius: 8px;
+}
+
+h2 {
+    border: #2ef1cf solid 8px;
+    font-size: 4em;
+    font-weight: 600;
+    height: auto;
+    width: auto;
+    color: lightsalmon;
+    background-color: black;
+    border-radius: 8px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
