@@ -29,7 +29,7 @@ class Palindrome {
             if(data.palindrome == false) {
                 document.querySelector('#result').innerText = `${this._word} is not a palindrome`
             }else {
-                document.querySelector('#result').innerText = `${this._word} a palindrome`
+                document.querySelector('#result').innerText = `${this._word} is a palindrome`
             }
     
         } catch (error) {
