@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg.png);
+    background-repeat: repeat;
+    font-family: 'Quicksand', 'Poppins', 'Futura', sans-serif;
+}
+
+main {
+    width: 50%;
+    margin: 0 25%;
+    font-size: 2rem;
+    text-align: center;
+}
