@@ -24,4 +24,4 @@ This project was a great introduction to node.js
 
 ## Optimization 
 
-- style
+- Style
