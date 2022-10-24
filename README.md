@@ -8,6 +8,7 @@ This is a simple web application that uses the fs and http modules to validate i
 ## Tech Stack
 
 **Client:** JS, HTML, CSS
+
 **Server-side**: Node.js
 
 
