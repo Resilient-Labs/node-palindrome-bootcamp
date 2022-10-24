@@ -1,0 +1,16 @@
+h1{
+  text-align: center;
+  color: black;
+}
+
+.inputs {
+  margin-left: 41%;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.result {
+  margin-left: 40%;
+  margin-right: auto;
+}
+
