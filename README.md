@@ -1,2 +1,2 @@
-#Node Palindrome Detector
+# Node Palindrome Detector
 ### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
