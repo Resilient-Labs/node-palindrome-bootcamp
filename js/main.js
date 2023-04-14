@@ -1,18 +1,31 @@
-const userInput = document.querySelector('#userinput')
-const button = document.querySelector('button')
+// const button = document.querySelector('button')
+document.querySelector('button').addEventListener('click', getPalindrome)
 
-function makeReq(){
+function getPalindrome(){
+  
+  const userInput = document.querySelector('#userinput').value
 
-  let str1 = userInput.value
-  let str2 = userInput.value
-  
-  const solution = str2.split('').reverse().join('')
-  
-  if(str1 === solution){
-    document.querySelector('h2').innerText= "Yes!"
-  }else{
-    document.querySelector('h2').innerText= "No!"
-  }
+  fetch(`/api?student=${userInput}`)
+  .then(response => response.json())
+  .then((data) => {
+
+    console.log(data);
+    document.querySelector("h2").textContent = data.chicken
+
+  });
 
 }
-button.addEventListener('click', makeReq)
+// function makeReq(){
+
+//   let str1 = userInput.value
+  
+//   const solution = str1.split('').reverse().join('')
+  
+//   if(str1 === solution){
+//     document.querySelector('h2').innerText= "Yes!"
+//   }else{
+//     document.querySelector('h2').innerText= "No!"
+//   }
+
+// }
+// button.addEventListener('click', makeReq)
