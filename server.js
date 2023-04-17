@@ -18,7 +18,9 @@ const server = http.createServer(function(req, res) {
     if('student' in params){
         res.writeHead(200, {'Content-Type': 'application/json'});
         check = params['student'].toLowerCase().split('').reverse().join('')
-        if(params['student'].toLowerCase() == check){
+        if(params['student'] === ""){
+          yesOrNo = "Enter Valid Word"
+        }else if(params['student'].toLowerCase() == check){
           yesOrNo = "yes"
         }else{
           yesOrNo = "no"
