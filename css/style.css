@@ -1,0 +1,20 @@
+body{
+  background-image: url("https://media.giphy.com/media/xT1XGQMxNewM2zSs5q/giphy.gif");
+}
+h1,h2,h3{
+  text-align: center;
+}
+h1,h2{
+  font-size: 40px;
+  font-weight: bolder;
+}
+h2{
+  text-decoration: underline;
+  font-size: 50px;
+}
+input{
+  margin-left: 40%;
+}
+input,button{
+  font-size: 30px;
+}
