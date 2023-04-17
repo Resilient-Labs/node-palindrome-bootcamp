@@ -1,0 +1,43 @@
+h1{
+  color: rgb(162, 255, 0);
+  margin-top:350px;
+  text-shadow: black 1px 0 10px;
+  font-size: 80px;
+}
+*{
+  text-align: center;
+  background-color: lavender;
+}
+button {
+  background-color: #090909; 
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+button {
+  box-shadow: 0 15px 25px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: 20px;
+}
+
+button:hover {
+  box-shadow: 0 15px 25px 0 rgba(0,0,0,0.24),0 17px 60px 0 rgba(0,0,0,0.19);
+}
+input{
+  border-radius: 15px;
+  font-size: 27px;
+  padding: 12px 12px;
+}
+
+h2{
+  font-size: 40px;
+}
+
