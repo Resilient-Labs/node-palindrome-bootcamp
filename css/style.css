@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  font-family: "Dongle", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 3rem;
+  margin: 40px;
+  background: rgb(46, 180, 197);
+ 
+}
+
+h1 {
+  font-size: 8rem;
+  margin: 0;
+  text-shadow: 2px 2px 2px white;
+  text-align: left;
+}
+
+input {
+  font-size: 2.5rem;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button {
+  font-size: 2rem;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+h2 {
+  font-size: 4.5rem;
+  text-align: center;
+  text-shadow: 2px 2px 2px white;
+  animation: float 6s ease-in-out infinite;
+  margin-top: 100px;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+main{
+  background: rgba(255, 255, 255, 0.39);
+  width: 40%;
+  height: 600px;
+  padding: 20px;
+  border-radius: 20px;
+}
