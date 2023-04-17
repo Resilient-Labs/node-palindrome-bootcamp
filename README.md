@@ -4,19 +4,18 @@
 
 ### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+### Process:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<ol>
+  <li>Once again, not too bad on the APIs after with them for a while.</li>
+  <li>On the server-side JS, I had created a function that check if the userInput, in this case, the word to be assessed as a palindrome or not, was equal to the same word backwards.</li>
+  <li>After calling that function and check if "palindrome" was in the parameters (checks if it is a palindrome), I then created a JSON object to have the status of 'palindrome' or 'not-palindrome'.</li>
+   <li>I then had the client-side JS grab that status, run it against the userInput, and then return 'Yes, [userInput] is a palindrome' and 'No' if not.</li>
+  <li>And that's about it.  Nothing too intense.</li>
+
+<p>Overall, Marvelous.  A testiment to how adapted I have become to APIs.  I am they.  They are me.  We are one.</p>
+
+<ul>
+  <li>I completed the challenge: | 5 <em>Ate that.</em></li>
+  <li>I feel good about my code: | 5 <em>It works and it works well.  Good job, me.</em></li>
+</ul>
