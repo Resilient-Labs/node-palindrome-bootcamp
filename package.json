@@ -1,0 +1,20 @@
+{
+    "name": "node-palindrome-checker-server-side",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "echo \"No build specified\" && exit 1",
+        "test": "echo \"No test specified\" && exit 1",
+        "start": "node index.js"10
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/httpsmenahassan/node-palindrome-checker-server-side.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/httpsmenahassan/node-palindrome-checker-server-side/issues"
+    },
+    "homepage": "https://github.com/httpsmenahassan/node-palindrome-checker-server-side#readme"
+}
