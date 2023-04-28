@@ -10,4 +10,4 @@ This project helped me get familiar with the require() function which is built-i
 
 This project was built using raw Node.js. I have a deep apprecation for Express as a result of this.
 
-<img src="palindrome-project-local-host-screenshot.jpg">
+<img src="palindrome-project-local-host-screenshot.JPG">
