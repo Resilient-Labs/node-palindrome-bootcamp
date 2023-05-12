@@ -58,3 +58,7 @@ header,footer {
 div{
     height: 400px;
 }
+
+.result {
+  height: 400px;
+}
