@@ -34,6 +34,11 @@ The main components of the project include:
 Here is a simplified explanation of how the server handles palindrome checks:
 
 ```javascript
+function isPalindrome(str) {
+	let copy = str.toLowerCase().split("").reverse().join("");
+	return str.toLowerCase() === copy; // true or false
+}
+
 else if (page == "/api") {
 	if ("palindrome" in params) {
 		const word = params["palindrome"];
