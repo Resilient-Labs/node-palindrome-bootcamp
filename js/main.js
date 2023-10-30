@@ -8,10 +8,11 @@ function makeReq(){
   fetch(`/api?palindrome=${userInput}`)
     .then(response => response.json())
     .then((data) => {
+      console.log('data :')
       console.log(data);
-      document.querySelector("#personName").textContent = data.name
-      document.querySelector("#personStatus").textContent = data.status
-      document.querySelector("#personOccupation").textContent = data.currentOccupation
+      document.querySelector("h2").innerText = data.palindromeResult;
+      // document.querySelector("#personStatus").textContent = data.status
+      // document.querySelector("#personOccupation").textContent = data.currentOccupation
     });
 
 }

@@ -24,33 +24,22 @@ function requestListener(req, res) {
     console.log('params: ');
     console.log(params) // { palindrome: 'poop' }
     const palindromeInput = params.palindrome;
+    console.log(`plaindrome Input : ${palindromeInput}`);
 
-    // console.log(`#2`);
-    // if ("student" in params) {
-    //   if (params["student"] == "leon") {
-    //     let coinToss = Math.random();
-    //     if (coinToss > 0.5) {
-    //       console.log("heads");
-    //       res.writeHead(200, { "Content-Type": "application/json" });
-    //       const objToJson = {
-    //         name: "heads",
-    //         status: "Boss Man",
-    //         currentOccupation: "Baller",
-    //       };
-    //       res.end(JSON.stringify(objToJson));
-    //     } else if (coinToss < 0.5) {
-    //       console.log("tails");
-    //       res.writeHead(200, { "Content-Type": "application/json" });
-    //       const objToJson = {
-    //         name: "tails",
-    //         status: "Boss Man",
-    //         currentOccupation: "Baller",
-    //       };
-    //       res.end(JSON.stringify(objToJson));
-    //     }
-    //   } //student
-    // } //student if
-  } //else if
+
+   
+    if ("palindrome" in params) {
+
+      if (params["palindrome"] !== "") {
+        res.writeHead(200, { "Content-Type": "application/json" });
+        const objToJson = {
+          //this palindrome result holds the value of whether the user input was a palindrome  or not
+          palindromeResult: palindromeChecker(palindromeInput),
+        };
+        res.end(JSON.stringify(objToJson));
+      } 
+    } 
+  }
   else if (page == "/css/style.css") {
     console.log(`#3`);
     fs.readFile("css/style.css", function (err, data) {
@@ -77,5 +66,37 @@ function requestListener(req, res) {
   }
 } 
 
+//checking to see if its a plaindrome which is its sole purpose
+function palindromeChecker(palindromeInput){
+
+  if (palindromeInput.length == 1) {
+    console.log("palindrome is of length one");
+    return true;
+  }
+
+  let end = palindromeInput.length - 1;
+
+  for (let i = 0; i < palindromeInput.length - 1; i++) {
+
+    console.log(`start(char): ${palindromeInput.charAt(i)}`);
+    console.log(`end(char): ${palindromeInput.charAt(end)}`);
+    if (i > end) {
+      console.log(
+        "reached all possibilities for checking all elemnts of index from start to end and looks good"
+      );
+      return true;
+    } else if (palindromeInput.charAt(i) !== palindromeInput.charAt(end)) {
+      console.log(
+        "if the letters on start and end of string are not the same stop"
+      );
+      return false;
+    }
+
+    end -= 1;
+  }
+
+  return true;
+    
+}
 //server objct
 server.listen(8000); // open on host
