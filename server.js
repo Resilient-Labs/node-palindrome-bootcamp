@@ -21,13 +21,9 @@ function requestListener(req, res) {
       res.end(); // ends http response
     });
   } else if (page == "/api") {
-    console.log('params: ');
-    console.log(params) // { palindrome: 'poop' }
+
     const palindromeInput = params.palindrome;
-    console.log(`plaindrome Input : ${palindromeInput}`);
 
-
-   
     if ("palindrome" in params) {
 
       if (params["palindrome"] !== "") {
@@ -41,13 +37,13 @@ function requestListener(req, res) {
     } 
   }
   else if (page == "/css/style.css") {
-    console.log(`#3`);
+
     fs.readFile("css/style.css", function (err, data) {
       res.write(data);
       res.end();
     });
   } else if (page == "/js/main.js") {
-    console.log(`#4`);
+
     fs.readFile("js/main.js", function (err, data) {
       res.writeHead(200, { "Content-Type": "text/javascript" });
       res.write(data);
@@ -70,7 +66,6 @@ function requestListener(req, res) {
 function palindromeChecker(palindromeInput){
 
   if (palindromeInput.length == 1) {
-    console.log("palindrome is of length one");
     return true;
   }
 
@@ -78,17 +73,10 @@ function palindromeChecker(palindromeInput){
 
   for (let i = 0; i < palindromeInput.length - 1; i++) {
 
-    console.log(`start(char): ${palindromeInput.charAt(i)}`);
-    console.log(`end(char): ${palindromeInput.charAt(end)}`);
     if (i > end) {
-      console.log(
-        "reached all possibilities for checking all elemnts of index from start to end and looks good"
-      );
       return true;
     } else if (palindromeInput.charAt(i) !== palindromeInput.charAt(end)) {
-      console.log(
-        "if the letters on start and end of string are not the same stop"
-      );
+
       return false;
     }
 
