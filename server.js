@@ -1,12 +1,12 @@
 const http = require('http'); // http is an object which holds my module http
-const fs = require('fs')
-const url = require('url');
-const querystring = require('querystring'); // query params after 8000, 
-const figlet = require('figlet') // fun 
-              //object.createServer(param1)
-const server = http.createServer(requestListener);
+const fs = require('fs') // fs is an object which holds my module fs
+const url = require('url'); // url is an object which holds my module url
+const querystring = require('querystring'); // querystring an object which holds my module querystring
+const figlet = require('figlet') // figlet is an object which holds my module figlet
+      
+const server = http.createServer(requestListener);   //this creates a server --> object.createServer(param1) which its used to specifically handle requests "requestListener"
 
-function requestListener(req, res) {
+function requestListener(req, res) { // this function handles the request to and from the sever 
 
   // create server that opens
   const page = url.parse(req.url).pathname; // this gets path name
@@ -15,16 +15,16 @@ function requestListener(req, res) {
   if (page == "/") {
     //if we go to server, there is a slash there then read the file
     fs.readFile("index.html", function (err, data) {
-      // takes a param u want it to read
-      res.writeHead(200, { "Content-Type": "text/html" });
-      res.write(data);
+      res.writeHead(200, { "Content-Type": "text/html" }); // takes a param u want it to read
+      res.write(data); // preparing to send data back and add status 200 to it and what data itll come back as for content type, like in this case html 
       res.end(); // ends http response
     });
-  } else if (page == "/api") {
+  } else if (page == "/api") { // refere to the end point api
 
-    const palindromeInput = params.palindrome;
+    const palindromeInput = params.palindrome; // variable stormes param which is what the user inputs
 
-    if ("palindrome" in params) {
+    if ("palindrome" in params) {// if it can find palindrome the object inside params then its true 
+      
 
       if (params["palindrome"] !== "") {
         res.writeHead(200, { "Content-Type": "application/json" });
@@ -64,17 +64,21 @@ function requestListener(req, res) {
 
 //checking to see if its a plaindrome which is its sole purpose
 function palindromeChecker(palindromeInput){
-
+  //checks to see if one character is a palindrome which is true so return true if thats the case
   if (palindromeInput.length == 1) {
     return true;
   }
 
+  // 'end' variable starts at very end of user input word
   let end = palindromeInput.length - 1;
 
+  //created loop to go through all elements of index to compare both begining and end of string 
   for (let i = 0; i < palindromeInput.length - 1; i++) {
 
+    //a checker to make sure that loop doesnt start going through same element of index again
     if (i > end) {
       return true;
+      //else if it does go over the same iteration stop 
     } else if (palindromeInput.charAt(i) !== palindromeInput.charAt(end)) {
 
       return false;
