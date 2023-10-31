@@ -1,6 +1,7 @@
 # ↔️ Server Side Palindrome Checker
 
-<img width="377" alt="palindrome" src="https://github.com/JacinthaDev/node-palindrome-bootcamp/assets/129231721/071f49cb-cdf2-44fc-ac03-2c9c0bb38191">
+<img width="643" alt="palindrome" src="https://github.com/JacinthaDev/Palindrome/assets/129231721/04f15b3d-9b03-44c4-b34e-9f796b322059">
+
 
 Check out this project here: https://jacinthadev.github.io/Palindrome/
 
