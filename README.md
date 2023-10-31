@@ -18,7 +18,7 @@ This was my first time experimenting with serverside. I came to understand how t
 ### Examples:
 Take a look at similar projects!
 
-Coin Flip Game: 
+Coin Flip Game: https://jacinthadev.github.io/Coin-Flip/
 
 Tic-Tac-Toe: https://github.com/JacinthaDev/Tic-Tac-Toe/tree/answer
 
