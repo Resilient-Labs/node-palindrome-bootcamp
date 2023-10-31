@@ -1,5 +1,8 @@
 # ↔️ Server Side Palindrome Checker
 
+<img width="377" alt="palindrome" src="https://github.com/JacinthaDev/node-palindrome-bootcamp/assets/129231721/071f49cb-cdf2-44fc-ac03-2c9c0bb38191">
+Check out this project here: 
+
 # About this project
 This project uses server side to check if a word is a palindrome.
 
