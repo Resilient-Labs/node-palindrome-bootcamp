@@ -37,16 +37,16 @@ const server = http.createServer(function(req, res) { // creating variables that
   // Turn lowercase
   // Get the length to split
   else if (page == '/api') { // an api exists
-    if('' in params){
+    if('userInput' in params){
 
-      const userInput = params.userInput.toLowerCase().replace(/[^a-z]/g, '') // Clean and convert to lowercase
+      const userInput = params.userInput.toLowerCase().replace(/[^a-z]/g, '') // Clean and convert to lowercase 
+      // Removing characters with (/[^a-z]/g, '')
       const isPalindrome = validatePalindrome(userInput)
-
-      res.writeHead(200, {'Content-Type': 'application/json'})
       const response = {
         isPalindrome: isPalindrome
       }
-      res.end(JSON.stringify(response))
+      res.writeHead(200, {'Content-Type': 'application/json'})
+      res.end(JSON.stringify(response)) // debugging??
 
       function validatePalindrome(string) {
         // Find the length of a string

@@ -2,16 +2,19 @@ document.querySelector('#clickMe').addEventListener('click', makeReq)
 
 function makeReq(){
 
-  const userName = document.querySelector("#userName").value;
+  const userInput = document.querySelector("#userInput").value;
 
-  fetch(`/api?student=${userName}`)
+  fetch(`/api?student=${userInput}`)
     .then(response => response.json())
     .then((data) => {
-      console.log(data);
-      document.querySelector("#personName").textContent = data.name
-      document.querySelector("#personStatus").textContent = data.status
-      document.querySelector("#personOccupation").textContent = data.currentOccupation
-    });
+      console.log(data)
+      const result = document.querySelector("#palindromeResult")
+      if (data.isPalindrome === 'It is a palindrome') {
+        result.textContent = 'Yes! It is a palindrome.'
+      } else {
+        result.textContent = 'No, it is not a palindrome.'
+      }
+    })
 
 }
 
