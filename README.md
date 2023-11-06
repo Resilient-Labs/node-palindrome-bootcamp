@@ -5,7 +5,7 @@
 # My Awesome Project
 This simple web application used backend server side to display if the user's input is a palindrome. 
 
-![alt tag](img/palindrome-sc.png)
+![alt tag](img/Screenshot%202023-11-06%20at%203.47.35%20AM.png)
 
 ## How It's Made:
 
