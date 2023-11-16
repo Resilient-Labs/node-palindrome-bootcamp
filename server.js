@@ -44,7 +44,7 @@ const server = http.createServer(function(req, res) {
           name: "leon",
           status: "Boss Man",
           currentOccupation: "Baller",
-          result: "winner"
+          result: "Is Palindrome!"
         }
         res.end(JSON.stringify(objToJson));
       }//student = leon
@@ -54,7 +54,7 @@ const server = http.createServer(function(req, res) {
           name: "unknown",
           status: "unknown",
           currentOccupation: "unknown",
-          result: "loser"
+          result: "Not a palindrome!"
         }
         res.end(JSON.stringify(objToJson));
       }//student != leon
