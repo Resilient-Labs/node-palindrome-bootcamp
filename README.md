@@ -1,22 +1,60 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+# Palindrome Checker 🔄
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+## Overview
 
-### How to submit your code for review:
+This project is a simple web application that checks if a given string is a palindrome. The validation is done on the server side using the fs and http modules.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+  ![Palindrome Checker Screenshot](project.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made
+
+### Tech used
+
+- HTML
+- CSS
+- Node.js
+- Vanilla JavaScript
+
+### Implementation Details
+
+- **HTML and CSS:**
+  - Basic structure and styling for a clean user interface.
+
+- **Node.js:**
+  - Server creation and initiation.
+
+- **Vanilla JS:**
+  - Interaction with the backend to check if a word is a palindrome and dynamic display in the DOM.
+
+- **Figlet for Error Message:**
+  - Utilized Figlet for enhanced error messages.
+
+## Lessons Learned 📚
+
+- **Server Creation:**
+  - Understanding and hands-on experience in creating and starting a server using Node.js.
+
+- **Backend Interaction:**
+  - Learning how to grab data from the user on the backend and display results in the DOM.
+
+- **Node Modules:**
+  - Knowledge gained about using Node modules for enhanced functionality and modularity.
+
+## Getting Started 🚀
+
+To get this project up and running, follow these simple steps:
+
+1. **Clone or Download:**
+   - Clone this repository using `git clone` or download the ZIP file.
+
+2. **Navigate to the Project:**
+   - `cd` into the project directory.
+
+3. **Install Dependencies:**
+   - Run `npm install` to install the necessary dependencies.
+
+4. **Start the Server:**
+   - Run `node server.js` to start the server.
+
+5. **Open in Browser:**
+   - Visit `http://localhost:8000` in your web browser.
