@@ -2,6 +2,8 @@
 
 ![Palindrome Panic Site Gif](img/palindrome-panic.gif)
 
+Link to Project: https://palindrome-panic-production.up.railway.app/
+
 Welcome to my Palindrome Panic project. This server-side application uses the fs and http modules to validate whether a given string is a palindrome.
 
 ## How It's Made
