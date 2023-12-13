@@ -5,6 +5,8 @@ const port = process.env.PORT || 8000
 const querystring = require('querystring');
 const figlet = require('figlet')
 
+console.log('this is the port', port)
+
 const server = http.createServer(function(req, res) {
   console.log('create server')
   const page = url.parse(req.url).pathname;
