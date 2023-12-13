@@ -6,9 +6,10 @@ const querystring = require('querystring');
 const figlet = require('figlet')
 
 const server = http.createServer(function(req, res) {
+  console.log('create server')
   const page = url.parse(req.url).pathname;
   const params = querystring.parse(url.parse(req.url).query);
-  console.log(page);
+  console.log('This is the page for', page);
   if (page == '/') {
     fs.readFile('index.html', function(err, data) {
       res.writeHead(200, {'Content-Type': 'text/html'});
@@ -67,5 +68,7 @@ const server = http.createServer(function(req, res) {
     });
   }
 });
+
+console.log('About to listen on', port)
 
 server.listen(port, '0.0.0.0');
