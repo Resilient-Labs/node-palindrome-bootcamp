@@ -1,0 +1,45 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #0077cc;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Input styles */
+  input[type="text"] {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Heading styles */
+  h2 {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
