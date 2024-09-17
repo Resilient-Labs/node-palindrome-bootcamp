@@ -1,0 +1,24 @@
+*{
+  text-align: center;
+  font-family: 'Patua One', cursive;
+}
+body{
+    background-image: url(holes.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+h1{
+  font-size: 2em;
+}
+h3{
+  font-size: 1.5em;
+}
+p, span, input, button{
+  font-size: 1.3em;
+}
+button{
+  color: white;
+  background-color: rgb(132, 27, 25)
+}
