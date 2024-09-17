@@ -1,5 +1,13 @@
 # ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
 
+# Palindrome Checker
+
+This Javascript project checks whether or not the word applied in the input box is a palindrome or not.
+
+## Screenshots
+
+![Application Screen Shot](img.jpg)
+
 ### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
 
 ### How to submit your code for review:
