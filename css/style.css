@@ -1,0 +1,39 @@
+/* used chat gpt for some styling here */
+
+body {
+  font-size: 62.5%;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+#stringInput {
+  font-size: 2rem;
+  padding: 0.5rem;
+  border: 2px solid #333;
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+}
+
+#checkPalinBtn {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+#checkPalinBtn:hover {
+  background-color: #555;
+}
+
+#palinResult {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
