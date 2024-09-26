@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+header{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1, p{
+    text-align:center;
+    color: blue;
+    font-weight: bold;
+    margin:0px;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+p {
+    font-size: 1rem;
+}
+span {
+    width:75%;
+    font-size: 2rem;
+    color: blue;
+}
+
+section {
+    display:flex;
+    justify-content: center;
+    margin-top:5%;
+}
+
+#input {
+    width:60%;
+    margin-right: 1%;
+}
+
+#submit {
+    background: blue;
+    color: white;
+    border: 2px solid blue;
+
+}
+
+div {
+    background: lightblue;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:5%;
+    padding-right:5%;
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 5px 10px lavender;
+}
