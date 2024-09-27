@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Source Code Pro', Arial, Helvetica, sans-serif;
+  display:flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(117,140,179,1) 0%, rgba(171,37,112,1) 100%);
+  height: 100vh;
+  color: white;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 2.2rem;
+}
+
+input, button{
+  font-family: 'Source Code Pro', Arial, Helvetica, sans-serif;
+  width: 15%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+p{
+  font-size: 1.8rem;
+}
