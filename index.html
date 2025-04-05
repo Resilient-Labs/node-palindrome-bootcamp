@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Palindrome Checker</title>
+</head>
+<body>
+  <h1>Is It A Palindrome</h1>
+  <form>
+    <input type="text" id="textInput" placeholder="Enter a word" required />
+    <button type="submit">Check</button>
+  </form>
+  <p id="result"></p>
+
+  <script>
+    document.querySelector('form').addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const input = document.getElementById('textInput').value;
+
+      const res = await fetch('/check?text=' + encodeURIComponent(input));
+      const data = await res.json();
+
+      document.getElementById('result').textContent = data.message;
+    });
+  </script>
+</body>
+</html>
