@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+}
+
+h1{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+body{
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: goldenrod;
+    color: wheat;
+    font-weight: bold;
+}
+
+button:hover{
+    scale: 1.12;
+    background-color: rgb(255, 221, 136);
+    color: darkblue;
+}
