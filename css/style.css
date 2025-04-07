@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://www.shutterstock.com/image-vector/harlequin-seamless-pattern-red-black-600nw-2298730993.jpg')
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background-color: white;
+    margin-top: 100px;
+    width: 500px;
+    height: 60vh;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1{
+    font-size: 3.5rem;
+    background-color: white;
+    width: 500px;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    width: 75%;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+div{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+   justify-content: center;
+   gap: 5px;
+}
+
+input{
+    width: 50%;
+    height: 30px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 5px;;
+}
+
+p{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: red;
+}
