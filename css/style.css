@@ -1,0 +1,96 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html, body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color:rgb(155, 93, 236);
+  flex-direction: column;
+  margin:25px;
+  padding:0;
+  text-align: center;
+}
+
+h3, h4, h2, h1, div{
+  color:rgb(230, 224, 224);
+  font-size: 50px;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;  
+  margin:50px;  
+  text-align: center;
+  justify-content: center;
+  align-content: center;  
+}
+
+section{
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  border:5px solid white;
+  box-shadow: 10px 5px 5px rgba(24, 27, 24, 0.3); 
+  border-radius: 15px;
+  margin: 25px auto;      
+  padding: 20px;      
+  text-align: center; 
+  display:flex;  
+}
+input, button{  
+  width:33%;
+  height:80px;
+  background-color: rgb(208, 184, 231);
+  border-radius: 15px;
+  color:rgb(100, 5, 177);
+  font-size: 20px;
+  text-align: center;
+  border:none;
+  margin:10px;
+}
+
+select{
+  font-size: 30px;
+  width: 10rem;
+  background-color: rgb(171, 248, 238);
+  border-radius: 10px;
+  border-style: none;
+  margin:25px;
+}
+
+div{
+  color:rgba(143, 90, 230, 0.918);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+button:hover{
+  background-color: rgb(100, 46, 247); ;
+}
+
+button:active{
+  background-color: rgb(57, 46, 65); ;
+}
+
+input::placeholder{
+  color:rgba(142, 155, 142, 0.856);
+}
+
+p{
+  font-size: 30px;
+  color:rgb(68, 80, 83);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
