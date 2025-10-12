@@ -1,0 +1,24 @@
+{
+  "name": "palindrome",
+  "version": "1.0.0",
+  "description": "- Fork and clone this repo - Create a new branch called answer - Checkout answer branch - Push to your fork - Issue a pull request - Your pull request description should contain the following:   - (1 to 5 no 3) I completed the challenge   - (1 to 5 no 3) I feel good about my code   - Anything specific on which you want feedback!",
+  "homepage": "https://github.com/L-Meryem/palindrome#readme",
+  "bugs": {
+    "url": "https://github.com/L-Meryem/palindrome/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L-Meryem/palindrome.git"
+  },
+  "license": "ISC",
+  "author": "LMeryem",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "figlet": "^1.9.3"
+  }
+}
