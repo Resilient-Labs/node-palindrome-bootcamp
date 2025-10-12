@@ -1,0 +1,109 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.4rem;
+}
+
+main {
+  width: fit-content;
+  min-width: 404px;
+  margin: 20px auto;
+}
+
+.checker {
+  display: flex;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.sentence {
+  padding: 20px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px rgb(215, 61, 87);
+}
+
+input {
+  border: 2px solid rgb(215, 61, 87);
+  background-color: white;
+  font-size: 1.4rem;
+  color: rgb(9, 66, 221);
+  width: 15ch;
+  margin: 0 0.5ch;
+}
+
+button,
+.sentence {
+  border: 2px solid black;
+}
+
+button {
+  border-left: none;
+  padding: 0 20px;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+  box-shadow: 5px 5px rgb(215, 61, 87);
+}
+
+button:hover {
+  background-color: rgb(215, 61, 87);
+
+}
+
+.history {
+  padding: 20px;
+  color: gray;
+}
+
+.history li {
+  list-style: square;
+  padding: 5px 0;
+  list-style-position: inside;
+}
+
+span {
+  display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media screen and (max-width: 702px) {
+  .checker {
+    flex-direction: column;
+  }
+
+  button {
+    padding: 16px 0;
+  }
+}
+
+@media screen and (max-width: 505) {}
