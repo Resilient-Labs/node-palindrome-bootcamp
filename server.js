@@ -52,7 +52,7 @@ const server = http.createServer(function (req, res) {
     const objToJson = {
       userInput: userInput,
       palidrome: palidrome,
-      result: result ? "is a palindrome" : "not a palidrome"
+      result: result ? "a palindrome" : "not a palidrome"
     };
 
     // send JSON response to main js

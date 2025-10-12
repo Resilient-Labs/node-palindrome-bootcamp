@@ -1,3 +1,145 @@
-h1{
-  color: red;
+/* openai */
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout base */
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: linear-gradient(135deg, #3b8d99 10%, #6b6b83 60%, #aa4b6b 100%);
+  color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Main container card */
+.container {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.container:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.22);
+}
+
+/* Headings */
+h1 {
+  font-size: 1.7rem;
+  color: #3b8d99;
+  margin-bottom: 1rem;
+}
+
+legend h2 {
+  font-size: 1rem;
+  color: #6b6b83;
+  font-weight: 600;
+}
+
+/* Form & fieldset */
+fieldset {
+  border: 2px solid #c7e8ea;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  background: linear-gradient(180deg, rgba(203, 242, 244, 0.4), rgba(255, 255, 255, 0.3));
+}
+
+/* Input */
+#word {
+  width: 100%;
+  padding: 0.7rem;
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  outline: none;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+#word:focus {
+  border-color: #3b8d99;
+  box-shadow: 0 0 10px rgba(59, 141, 153, 0.25);
+}
+
+/* Button */
+#clickMe {
+  background: linear-gradient(135deg, #6b6b83, #3b8d99);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0.65rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 6px 14px rgba(59, 141, 153, 0.25);
+}
+
+#clickMe:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 18px rgba(59, 141, 153, 0.35);
+}
+
+#clickMe:active {
+  transform: scale(0.98);
+  box-shadow: 0 4px 10px rgba(59, 141, 153, 0.2);
+}
+
+/* Result box */
+#result {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  min-height: 48px;
+  border-radius: 10px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+  background: #f3f3f3;
+  color: #333;
+}
+
+/* Dynamic states for JS */
+#result.success {
+  background: rgba(59, 141, 99, 0.1);
+  color: #2e7d32;
+  border: 1px solid rgba(46, 125, 50, 0.25);
+}
+
+#result.fail {
+  background: rgba(170, 75, 107, 0.1);
+  color: #aa4b6b;
+  border: 1px solid rgba(170, 75, 107, 0.25);
+}
+
+/* Responsive layout */
+@media (max-width: 480px) {
+  .container {
+    padding: 1.25rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  #clickMe {
+    width: 100%;
+  }
 }

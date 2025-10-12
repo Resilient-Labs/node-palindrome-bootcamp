@@ -12,9 +12,7 @@ function makeReq() {
       //display the result on dom
 
       document.querySelector("#result").textContent = 
-      `You entered: ${data.userInput}.
-      Your word reversed: ${data.palidrome}.
-      It is ${data.result}.`
+      `This is ${data.result}.`
       console.log(`palidrome: ${data.palidrome}`)
       console.log(`User word: ${data.userInput}`)
       console.log(`${data.result}`)
