@@ -3,7 +3,7 @@
 A simple word app that checks if your input reads the same **forward and backward**.  
 When it is, the reflection appears like words gliding over still water.
 
-[Link to project](replace with your live demo link) 
+[Link to project](https://node-palindrome-production.up.railway.app/) 
 
 ![screenshot](img/palindrome.png "Say It Both Ways — Palindrome Checker")
 
