@@ -4,7 +4,6 @@ const palindromeResult = document.querySelector('#palindromeResult');
 
 checkButton.addEventListener('click', () => {
     let input = textInput.value;
-    console.log(input);
     checkIfPalindrome(input);
 });
 
