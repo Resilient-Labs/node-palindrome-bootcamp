@@ -1,22 +1,30 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+# 💧 Say It Both Ways — Palindrome Checker
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+A simple word app that checks if your input reads the same **forward and backward**.  
+When it is, the reflection appears like words gliding over still water.
 
-### How to submit your code for review:
+[Link to project](https://node-palindrome-production.up.railway.app/) 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![screenshot](img/palindrome.png "Say It Both Ways — Palindrome Checker")
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+---
+
+## How It’s Made
+**Tech used:** HTML, CSS, JavaScript, Node.js  
+
+The app uses a small **Node.js server** to check for palindromes and return the result.  
+On the front end, a **calm pond-inspired design** features subtle ripples, glassy elements, and reflective text that only appears for palindromes.
+
+---
+
+## Optimizations
+- Added input validation for empty entries.  
+- Reflection only activates for valid palindromes.  
+- Background animation no longer blocks user interaction.  
+
+---
+
+## Lessons Learned
+- Built a simple Node API and connected it with a front-end fetch request.  
+- Used `-webkit-box-reflect` for conditional mirror effects.  
+- Enhanced user feedback with subtle animation and color contrast.
