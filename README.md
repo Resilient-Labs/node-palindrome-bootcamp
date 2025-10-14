@@ -31,30 +31,30 @@ It tests your word, flips it backward, and decides whether it mirrors itself.
 ## 📦 Installation & Setup
 1. Clone this repository:
      
-  ```bash
-    git clone https://github.com/your-username/node-palindrome.git
+```bash
+git clone https://github.com/your-username/node-palindrome.git
   ```
 2. Navigate into the project folder:
 
-  ```bash
-    cd node-palindrome
+```bash
+cd node-palindrome
   ```
 3. Install dependencies:
    
 ```bash
-   npm install figlet
+npm install figlet
   ```  
 
 4. Start the server:
    
 ```bash
-   node server.js
+node server.js
   ```
 
 5. Open your browser.
 
 ```bash
-   http://localhost:8000
+http://localhost:8000
 ```
 ---
 
