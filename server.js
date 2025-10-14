@@ -18,22 +18,18 @@ const server = http.createServer((req, res) => {
       res.end();
     });
   } else if (path === "/api") {
-    console.log("\n\nYou hit an endpoint\n");
-
     if ("word" in params) {
       const word = params.word;
 
       // check if palindrome
       // remove spaces + fix casing
       let formattedWord = word.replace(" ", "").toLowerCase();
-      console.log(formattedWord);
 
       // reverse string
       let reversed = "";
       for (let i = formattedWord.length - 1; i >= 0; i--) {
         reversed += formattedWord[i];
       }
-      console.log("REVERSED:", reversed);
 
       res.writeHead(200, { "Content-Type": "application/json" });
 

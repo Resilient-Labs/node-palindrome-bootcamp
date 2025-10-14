@@ -8,9 +8,10 @@ function isPalindrome() {
   fetch(`/api?word=${word}`)
     .then((res) => res.json())
     .then((data) => {
-      console.log(data);
       // render response
-      document.querySelector("p").innerText = data.palindrome;
+      document.querySelector("p").innerText = data.palindrome
+        ? `Yes, "${word}" is a palindrome.`
+        : `No, "${word}" is not a palindrome.`;
     })
     .catch((err) => console.error(err));
 }
