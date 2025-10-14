@@ -28,7 +28,7 @@ if(page === '/'){
   // here we are ending the response after the browser takes in the data
   })
   }
-else if (page === 'styles.css'){
+else if (page == '/styles.css'){
     fs.readFile('styles.css', function(err, data) {
       res.write(data);
       res.end();
@@ -77,3 +77,5 @@ if('word' in params){
 
 server.listen(8000);
 console.log('server is running ✅');
+
+// work completed with the help of Shawn and developer friend 
