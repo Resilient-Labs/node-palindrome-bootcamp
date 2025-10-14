@@ -1,0 +1,105 @@
+const http = require('http');
+const fs = require('fs')
+const url = require('url');
+const querystring = require('querystring');
+//const figlet = require('figlet')
+
+const server = http.createServer(function(req, res) {
+  const page = url.parse(req.url).pathname;
+  const params = querystring.parse(url.parse(req.url).query);
+  console.log(page);
+  if (page == '/') {
+    fs.readFile('index.html', function(err, data) {
+      res.writeHead(200, {'Content-Type': 'text/html'});
+      res.write(data);
+      res.end();
+    });
+  }
+  else if (page == '/otherpage') {
+    fs.readFile('otherpage.html', function(err, data) {
+      res.writeHead(200, {'Content-Type': 'text/html'});
+      res.write(data);
+      res.end();
+    });
+  }
+  else if (page == '/otherotherpage') {
+    fs.readFile('otherotherpage.html', function(err, data) {
+      res.writeHead(200, {'Content-Type': 'text/html'});
+      res.write(data);
+      res.end();
+    });
+  }
+  else if (page == '/api') {
+    if('student' in params){
+      if(params['student']== 'leon'){
+        res.writeHead(200, {'Content-Type': 'application/json'});
+        const objToJson = {
+          name: "leon",
+          status: "Boss Man",
+          currentOccupation: "Baller"
+        }
+        res.end(JSON.stringify(objToJson));
+      }//student = leon
+      else if(params['student'] != 'leon'){
+        res.writeHead(200, {'Content-Type': 'application/json'});
+        const objToJson = {
+          name: "unknown",
+          status: "unknown",
+          currentOccupation: "unknown"
+        }
+        res.end(JSON.stringify(objToJson));
+      }//student != leon
+    }//student if
+  }//else if
+  else if(page == '/checker'){
+    if('palindrome' in params) {
+      if(params['palindrome']) {
+        res.writeHead(200, {'Content-Type': 'application/json'});  
+        //change string to array using split
+        //reverse
+        //join
+        //if then pass the answer back
+
+        const reversed = params['palindrome'].split('').reverse().join('');
+        let theAnswer;
+        if(params['palindrome'] == reversed) {
+          console.log('true');
+          theAnswer = 'True';
+          //return true;
+        } else {
+          console.log('false');
+          theAnswer = 'False';
+          //return false;
+        }
+        const objToJson = {
+          answer: theAnswer
+        }
+        res.end(JSON.stringify(objToJson));
+      }
+      }
+    }   //make one for image if you want to display images
+  else if (page == '/css/style.css'){
+    fs.readFile('css/style.css', function(err, data) {
+      res.write(data);
+      res.end();
+    });
+  }else if (page == '/js/main.js'){
+    fs.readFile('js/main.js', function(err, data) {
+      res.writeHead(200, {'Content-Type': 'text/javascript'});
+      res.write(data);
+      res.end();
+    });
+  }else{
+    // figlet('404!!', function(err, data) {
+    //   if (err) {
+    //       console.log('Something went wrong...');
+    //       console.dir(err);
+    //       return;
+    //   }
+    //   res.write(data);
+    //   res.end();
+    // });
+  }
+});
+
+server.listen(8000);
