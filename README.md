@@ -1,22 +1,76 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+# ⚙️ This project is a server-side palindrome checker built with **Node.js**.  
+It tests your word, flips it backward, and decides whether it mirrors itself.
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+---
 
-### How to submit your code for review:
+## 🧩 Features 
+- 🧠 Server-side logic written in pure Node.js (no frameworks)  
+- 🌒 Minimal, dark neon-inspired UI  
+- 🕹️ Simple, responsive layout
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+---
 
-Example:
+## 🏗️ Tech Stack
+- **Node.js** – server and palindrome logic  
+- **HTML5 / CSS3** – front-end and styling  
+- **JavaScript (Fetch API)** – client-side communication  
+- **figlet** – stylized 404 ASCII output
+
+---
+
+## 🧠 How It Works
+- You type a word into the input field.
+- The client sends it to the Node.js server: /api?word=yourword
+- The server reverses the word and compares it.
+- If it matches → “Your word IS a palindrome.”
+- If not → “Your word IS NOT a palindrome.”
+- A fitting Giphy animates your result.
+
+---
+
+## 📦 Installation & Setup
+1. Clone this repository:
+     
+```bash
+git clone https://github.com/your-username/node-palindrome.git
+  ```
+2. Navigate into the project folder:
+
+```bash
+cd node-palindrome
+  ```
+3. Install dependencies:
+   
+```bash
+npm install figlet
+  ```  
+
+4. Start the server:
+   
+```bash
+node server.js
+  ```
+
+5. Open your browser.
+
+```bash
+http://localhost:8000
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+---
+
+## 📸 Screenshot
+
+<img width="1742" height="848" alt="palindrome-screenshot" src="https://github.com/user-attachments/assets/8e082f91-d9ef-4a9c-a4bf-13d851bb8302" />
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+Feel free to fork the repo and submit a pull request.
+
+---
+
+## 🙌🏽 Acknowledgments
+- GIFs powered by Giphy
