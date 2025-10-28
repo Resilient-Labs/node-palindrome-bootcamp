@@ -21,7 +21,3 @@ async function makeReq() {
     
 }
 
-function testFirst() {
-    
-}
-
