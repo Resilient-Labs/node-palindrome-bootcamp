@@ -1,22 +1,12 @@
 # ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-### How to submit your code for review:
+**🎮 Live Demo:** Found in About section.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+---
+## 🛠️ Tech Stack
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+* **Frontend:** HTML5, CSS3, Vanilla JavaScript (ES6+)
+* **Core Concepts:** DOM Manipulation, Advanced Event Handling (Event Delegation), and Client-Side State Management.
+* **Deployment:** Render
