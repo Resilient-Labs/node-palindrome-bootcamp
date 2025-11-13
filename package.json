@@ -1,0 +1,20 @@
+{
+  "name": "palindrome",
+  "version": "1.0.0",
+  "description": "<img width=\"618\" height=\"453\" alt=\"image\" src=\"https://github.com/user-attachments/assets/2914022b-ec70-4ebb-b416-e7fbb4a420a3\" />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MJaloui/node-palindrome.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MJaloui/node-palindrome/issues"
+  },
+  "homepage": "https://github.com/MJaloui/node-palindrome#readme"
+}
