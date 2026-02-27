@@ -1,0 +1,20 @@
+{
+  "name": "palindrome-bootcamp",
+  "version": "1.0.0",
+  "description": "Palindrome",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Innocent-R/palindrome-bootcamp.git"
+  },
+  "author": "Rukundo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Innocent-R/palindrome-bootcamp/issues"
+  },
+  "homepage": "https://github.com/Innocent-R/palindrome-bootcamp#readme"
+}
