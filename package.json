@@ -1,0 +1,19 @@
+{
+  "name": "palindrome-bootcamp",
+  "version": "1.0.0",
+  "description": "Making a palindrome checker to practice with servers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godwinKamau/node-palindrome-bootcamp.git"
+  },
+  "author": "Godwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godwinKamau/node-palindrome-bootcamp/issues"
+  },
+  "homepage": "https://github.com/godwinKamau/node-palindrome-bootcamp#readme"
+}

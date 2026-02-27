@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Molle&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="wrapper top">
+        <label>
+            <input type="checkbox" class="alertCheckbox" autocomplete="off" />
+            <div class="alert success" id="success">
+                <span class="alertClose">X</span>
+                <span class="alertText"></span>
+            </div>
+        </label>
+        <label>
+            <input type="checkbox" class="alertCheckbox" autocomplete="off" />
+            <div class="alert error" id="error">
+                <span class="alertClose">X</span>
+                <span class="alertText"></span>
+            </div>
+        </label>
+    </section>
+    <section class="main-container">
+        <section class="title">
+            <h1>Palindrome Checker</h1>
+        <!-- </section>
+        <section class="instructions"> -->
+            <h3>Type in a word or phrase to check if it's a palindrome.</h3>
+        </section>
+        <section class="text-insert">
+        <input type="text" id="typeHere" placeholder="Type Here">
+        <button id="checker">Check!</button>
+        </section>
+        <section class="result">
+        </section>
+    </section>
+    <section class="wrapper bottom"></section>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
