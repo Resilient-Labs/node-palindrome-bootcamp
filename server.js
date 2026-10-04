@@ -3,7 +3,6 @@ const fs = require('fs')
 const url = require('url');
 const querystring = require('querystring');
 const figlet = require('figlet');
-const { debug } = require('util');
 
 const server = http.createServer(function (req, res) {
   const page = url.parse(req.url).pathname;
