@@ -23,5 +23,5 @@ How to work with Node.
 How to work with APIs.  
 How to use fetch().  
 How to work with JSON data.  
-How to manipulate the DOM. 
+How to manipulate the DOM.  
 How to handle errors.  
