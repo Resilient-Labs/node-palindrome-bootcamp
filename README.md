@@ -2,7 +2,7 @@
 Use this program if you want to check if a word is a palindrome.  
 
 # 📋 How to use
-Open the app in your browser
+Open the app in your browser    
 Enter a word, submit    
 Instantly view results    
 
@@ -16,7 +16,7 @@ Fully responsive design for desktop and mobile.
 # 🔨 Built With
 HTML5 – structure,   
 CSS3 – responsive design and background,   
-JavaScript - fetch image of the day from NASA API. 
+JavaScript - fetch from backend and send to front end.  
 
 # 🧠 What I Learned 
 How to work with Node.  
