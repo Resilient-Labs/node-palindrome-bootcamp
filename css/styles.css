@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+
+    /* Remove when complete */
+    outline: 1px solid lime;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: hidden;
+}
+
+header,
+footer {
+    flex-shrink: 0;
+}
+
+main {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+}
+
+.mainHeader {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
