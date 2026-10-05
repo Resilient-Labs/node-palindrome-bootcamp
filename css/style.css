@@ -1,0 +1,57 @@
+
+body{
+          font-family: "Cormorant Upright", serif;
+}
+.card{
+   margin: 40px auto;
+    max-width: 600px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+   background: linear-gradient(135deg, rgba(58, 103, 150, 0.8) 0%, rgba(74, 126, 181, 0.8) 50%, rgba(197, 222, 255, 0.8) 100%);
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 8px 36px rgba(69, 60, 60, 0.37);
+    border: 1px solid brown;
+    border-radius: 20px;
+    color: white;
+
+}
+.card h1{
+    color: blue;
+}
+.card p{
+    font-size: 22px;
+}
+
+#result{
+   color: brown;
+   font-weight: bold;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+  padding: 10px 20px; 
+  background-color: #4caf50; 
+  color: white;
+  border: none; 
+  border-radius: 5px; 
+  font-size: 1rem; 
+  cursor: pointer; 
+}
+input{
+  padding: 10px; 
+  max-width: 100%; 
+  border: 1px solid #ddd;
+  border-radius: 5px; 
+  font-size: 1rem; 
+}
+
+button:hover {
+  background-color: #45a049; 
+}
