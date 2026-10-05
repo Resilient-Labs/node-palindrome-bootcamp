@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  display: block;
+  background: #17664C;
+  padding: 24px;
+  color: #E2E8F0;
+}
+nav{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  align-self: stretch;
+  color: #E2E8F0;
+}
+.container{
+   display: flex;
+  padding: 44px 64px 36px 64px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  align-self: stretch;
+}
+
+.container-card{
+  display: flex;
+  padding-top: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  width: 100%;
+ }
+.container-word{
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  margin: 0 auto;
+}
+#word{
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #DDE3ED;
+  background: #F7F9FC;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn-check-palindrome{
+  display: flex;
+  height: 60px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 18px;
+  border: 1px solid #17664C;
+  background: #17664C;
+  color: aliceblue;
+  width: 100%;
+  font-size: medium;
+}
+.container-result{
+  display: none;
+  height: 100px;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid rgba(31, 31, 31, 0.08);
+  background: #ECF7F1;
+
+}
