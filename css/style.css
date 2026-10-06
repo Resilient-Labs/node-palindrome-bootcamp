@@ -1,0 +1,36 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body{
+  background-image: url(../img/Yayoi_Kusama_TM_48-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+main{
+  background-color: rgba(58, 58, 83, .8);
+  width:50%;
+  text-align: center;
+  margin: 200px auto;
+  height:500px;
+  padding:200px;
+  border-radius: 10%;
+  p{
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+}
