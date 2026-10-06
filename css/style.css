@@ -1,0 +1,125 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+/* .clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+} */
+
+/* .clear {
+	clear: both;
+} */
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 30px;
+  background: linear-gradient(rgba(18, 12, 22, 0.65), rgba(18, 12, 22, 0.78)), url('../img/mirror-background.jpg') center/cover no-repeat fixed;
+  color: #f7f1e8;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/******************************************
+/* MAIN LAYOUT
+/*******************************************/
+
+section {
+  width: 90%;
+  max-width: 650px;
+  padding: 55px 45px;
+  text-align: center;
+  background: rgba(95, 84, 99, 0.9);
+  border: 2px solid #c9a86a;
+  border-radius: 18px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 3rem;
+}
+
+span {
+  display: block;
+  margin-bottom: 30px;
+  color: #c9a86a;
+  font-style: italic;
+}
+
+
+p {
+  line-height: 1.5;
+}
+
+input {
+  width: 65%;
+  padding: 10px 15px;
+  margin-top: 15px;
+  border: 1px solid #c9a86a;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 6px;
+  background: #c9a86a;
+  color: #17121d;
+  border: 1px solid #c9a86a;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e1c58f;
+}
+
+#result {
+  min-height: 30px;
+  margin-top: 30px;
+  color: #e1c58f;
+  font-style: italic;
+  font-weight: bold;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+
+  section {
+    padding: 40px 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    margin-left: 0;
+  }
+}
