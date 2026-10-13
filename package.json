@@ -1,0 +1,11 @@
+{
+  "name": "node-palindrome-bootcamp",
+  "version": "1.0.0",
+  "description": "Server side palindrome checker using Node's http and fs modules",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "license": "ISC"
+}
