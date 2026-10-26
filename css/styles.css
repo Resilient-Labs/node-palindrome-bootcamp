@@ -1,0 +1,35 @@
+:root {
+    --petal-frost: #ffd6ffff;
+    --mauve: #e7c6ffff;
+    --mauve-2: #c8b6ffff;
+    --mauve-3: #6C5D75; 
+    --periwinkle: #b8c0ffff;
+    --periwinkle-2: #bbd0ffff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background: linear-gradient(var(--periwinkle-2), var(--petal-frost));
+}
+
+h1 {
+    font-family: 'Bitcount Ink', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+.results{
+    font-family: 'Geo', sans-serif;
+    text-align: center;
+    font-size:3rem;
+    color: var(--mauve-3);
+}
