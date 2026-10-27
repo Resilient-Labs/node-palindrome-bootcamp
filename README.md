@@ -4,6 +4,10 @@ Palindrome Scanner is a simple JavaScript application that checks whether a word
 
 I built this project to practice working with strings, user input, functions, and conditional logic in JavaScript on the server side, while presenting the checker through a Y2K-inspired scanning interface.
 
+## Project Link
+
+[Check for a Palindrome](https://palindrome-checker-2000.onrender.com/)
+
 ## 📸 Project Preview
 
 ![Palindrome Scanner project preview](assets/mockup.png)
