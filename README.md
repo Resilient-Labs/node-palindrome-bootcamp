@@ -4,7 +4,11 @@ A server-side palindrome checker built with Node.js.
 User enters a word or pharse, then it would tell you is it a palindrome or not.
 
 
-- How it looks like:
+- Check it out:
+https://palindrome-5.onrender.com
+
+
+- Screenshots:
 
 ![When User enters nothing](./img/emptycase.png)
 ![Is a Palindrome](./img/yescase.png)
