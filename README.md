@@ -30,8 +30,9 @@ Navigate to the project directory.
 Run the server using:
 node server.js
 
-Open your browser and navigate to localhost using the port configured in server.js.
+Open your browser and navigate to:
+http://localhost:8000
+
 Enter a word or phrase into the input field.
 Submit your input to check whether it is a palindrome.
 View the result displayed by the application.
-Project Submission
