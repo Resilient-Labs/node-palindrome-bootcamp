@@ -1,24 +1,37 @@
-Project: Node Coin Flip Game
+#Server-Side Palindrome Checker
 
+The Server-Side Palindrome Checker is a simple web application that allows users to enter a word or phrase and check whether it is a palindrome. A palindrome is a word, phrase, or sequence that reads the same forward and backward.
 
-Goal: Create a simple web application that uses the fs and http modules. Use http to create the server and fs to read your html file. Include vanilla ES6 js in a script tag at the bottom of your html file. Try creating a coin flip guessing game
+This project uses Node.js to handle palindrome validation on the server side. The frontend provides a simple interface where users can enter text and receive the validation result.
 
+##Features
+User Input: Enter a word or phrase to check whether it is a palindrome.
+Palindrome Detection: Determine whether a string reads the same forward and backward.
+Server-Side Validation: Process user input and perform palindrome checks on the backend.
+Dynamic Results: Display the validation result to the user.
+Simple Interface: Use HTML, CSS, and JavaScript to create a straightforward user experience.
 
-What it looks like 
+##Tech Stack
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js
 
+##What I Learned
+Understanding how to create and run a server using Node.js.
+Processing user input and performing palindrome validation on the server side.
+Connecting frontend functionality with backend logic.
+Understanding how client-server communication works in a web application.
+Using JavaScript to manipulate and evaluate strings.
 
-How It Works
-The API manages the coin flip game logic and returns results in JSON format.
-Generates a random coin flip with a 50/50 chance of landing on Heads or Tails.
-Compares the user's selection with the randomly generated result.
-Returns a JSON response containing the flip result, win/loss status, and a message.
+##Installation
+Fork and clone the repository.
+Navigate to the project directory.
 
+##Usage
+Run the server using:
+node server.js
 
-How to Run
-npm install figlet
-Run node server.js
-open in browser: http://localhost:8000
-
-
-Future Improvements
-Improve the webpage design for mobile devices.
+Open your browser and navigate to localhost using the port configured in server.js.
+Enter a word or phrase into the input field.
+Submit your input to check whether it is a palindrome.
+View the result displayed by the application.
+Project Submission
