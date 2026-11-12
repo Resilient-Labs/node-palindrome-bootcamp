@@ -6,7 +6,7 @@
 
 - **Front end:** HTML, CSS, JavaScript (Fetch API)
 - **Back end:** Node.js (`http`, `fs`, `url`, and `querystring` modules)
-- **Hosting:** [GitHub Pages]
+- **Hosting:** GitHub Pages
 
 ## How to Use:
 
