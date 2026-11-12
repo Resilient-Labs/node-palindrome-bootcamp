@@ -8,8 +8,8 @@
 - **Back end:** Node.js (`http`, `fs`, `url`, and `querystring` modules)
 - **Hosting:** GitHub Pages
 
-## How to Use:
-
+## How to Use LIVE APP (online) :
+* Go to the[live link](https://programmingkat.github.io/node-palindrome/)
 * User inputs words and clicks submit
 * A message will display showing if the word is a palindrome or not. 
 
@@ -40,9 +40,7 @@
 
 5. Open `http://localhost:8000` in your browser.
 
-## Live App
 
-**Link:** [Live Link](https://programmingkat.github.io/node-palindrome/)
 
 
 ## Future Improvements
