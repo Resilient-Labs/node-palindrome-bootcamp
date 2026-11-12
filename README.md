@@ -9,7 +9,7 @@
 - **Hosting:** GitHub Pages
 
 ## How to Use LIVE APP (online) :
-* Go to the[live link](https://programmingkat.github.io/node-palindrome/)
+* Go to the [live link](https://node-palindrome-5gof.onrender.com)
 * User inputs words and clicks submit
 * A message will display showing if the word is a palindrome or not. 
 
