@@ -6,7 +6,7 @@
 
 - **Front end:** HTML, CSS, JavaScript (Fetch API)
 - **Back end:** Node.js (`http`, `fs`, `url`, and `querystring` modules)
-- **Hosting:** [GitHub Pages / Netlify / Vercel / Render]
+- **Hosting:** [GitHub Pages]
 
 ## How to Use:
 
@@ -42,12 +42,12 @@
 
 ## Live App
 
-**Link:** [https://your-link-here](https://your-link-here)
+**Link:** [Live Link](https://programmingkat.github.io/node-palindrome/)
 
 
 ## Future Improvements
 * Edit design
-* Allow for multiple word palindromes
+* Allow for multiple-word palindromes
 
 <img width="1917" height="615" alt="image" src="https://github.com/user-attachments/assets/d8229a5e-2bf8-4faa-b03f-b2e3f987c2f5" />
 <img width="1902" height="607" alt="image" src="https://github.com/user-attachments/assets/60895f32-91b6-4d60-a949-bd7bf72c220c" />
