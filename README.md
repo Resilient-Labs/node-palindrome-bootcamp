@@ -7,7 +7,7 @@ A palindrome checker that runs in the browser. Type a word or phrase into the in
 This project is a small web app that checks whether a string is a palindrome. It takes whatever the user types into the input box, normalizes it by lowercasing and stripping out spaces and punctuation, reverses it, and compares the two — then writes the verdict to the page. The styling is clean and high-contrast so the answer is readable at a glance.
 
 ### Live Link
-Use the link in the About section of this repo or simply [**click here**](https://node-palindrome-h4ez.onrender.com/)
+Use the link in the About section of this repo or simply [**click here**](https://node-palindrome-h4ez.onrender.com/).
 
 ![screenshot of the webpage](/css/screenshotWebpage.png)
 
